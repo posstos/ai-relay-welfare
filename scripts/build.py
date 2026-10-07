@@ -46,8 +46,8 @@ def build_readme(d):
     for i, s in enumerate(sites, 1):
         icon, label = CHECKIN_LABEL[s["checkin"]]
         rows.append(
-            "| {i} | **{name}**<br>`{host}` | {icon} {label} | {note} | [点此注册 →]({url}) | `{aff}` |".format(
-                i=i, name=esc(s["name"]), host=s["host"], icon=icon,
+            "| {i} | **{name}** | {icon} {label} | {note} | [点此注册 →]({url}) | `{aff}` |".format(
+                i=i, name=esc(s["name"]), icon=icon,
                 label=label, note=s["note"], url=s["url"], aff=s["aff"],
             )
         )
@@ -60,7 +60,7 @@ def build_readme(d):
         if not items:
             return "（无）\n"
         return "".join(
-            "- **{name}** `{host}` — {note}\n".format(name=esc(s["name"]), host=s["host"], note=s["note"])
+            "- **{name}** — {note}\n".format(name=esc(s["name"]), note=s["note"])
             for s in items
         )
 
@@ -166,7 +166,6 @@ def build_html(d):
           <h3 class="card-title">{name}</h3>
           <span class="badge badge-{cls}">{icon} {label}</span>
         </div>
-        <p class="host">{host}</p>
         <p class="note">{note}</p>
         <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">{aff}</code></div>
         <div class="actions">

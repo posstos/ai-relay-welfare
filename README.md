@@ -172,4 +172,5 @@ Claude Code / Codex CLI 之类的工具，把 `ANTHROPIC_BASE_URL` 或 `OPENAI_B
 
 - 数据源：`data/sites.json`，执行 `python scripts/build.py` 重新生成 README 与网页版。
 - 网页版：<https://posstos.github.io/ai-relay-welfare/>
+- 在线文档版（飞书知识库，可直接分享）：<https://my.feishu.cn/wiki/J1y2wutsyitnIRkwHeKcWIK2ngh>
 - 纯文本清单：`邀请链接.txt`

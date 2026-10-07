@@ -141,6 +141,7 @@ Claude Code / Codex CLI 之类的工具，把 `ANTHROPIC_BASE_URL` 或 `OPENAI_B
 
 - 数据源：`data/sites.json`，执行 `python scripts/build.py` 重新生成 README 与网页版。
 - 网页版：<https://posstos.github.io/ai-relay-welfare/>
+- 在线文档版（飞书知识库，可直接分享）：<https://my.feishu.cn/wiki/J1y2wutsyitnIRkwHeKcWIK2ngh>
 - 纯文本清单：`邀请链接.txt`
 """.format(
         n=n, yes=yes, updated=d["updated"], link_row=link_row,
@@ -340,7 +341,7 @@ __CARDS__
   <footer>
     <p><b>必须通过下方链接注册，才有额度奖励。</b>全部链接均为邀请链接，站点只认邀请链接带来的注册；直接去站点首页裸注册拿不到这份奖励。</p>
     <p class="warn">⚠️ 所有站点均为第三方独立运营，可能随时跑路、改价、清库。不要存放敏感数据，不要在多个站复用同一密码。收录不代表推荐。</p>
-    <p>数据源 <code>data/sites.json</code> ｜ 更新 __UPDATED__ ｜ <a href="https://github.com/posstos/ai-relay-welfare">GitHub 仓库</a></p>
+    <p>数据源 <code>data/sites.json</code> ｜ 更新 __UPDATED__ ｜ <a href="https://github.com/posstos/ai-relay-welfare">GitHub 仓库</a> ｜ <a href="https://my.feishu.cn/wiki/J1y2wutsyitnIRkwHeKcWIK2ngh">飞书文档版</a></p>
   </footer>
 </div>
 

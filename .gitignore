@@ -16,3 +16,7 @@ Thumbs.db
 # 本地临时
 *.log
 /tmp/
+
+# 飞书文档创作草稿（docs +script 生成，含本地工作区）
+draft_*/
+gen_doc.py

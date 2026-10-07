@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 中转站福利导航 · 邀请链接合集</title>
+<meta name="description" content="AI 中转站邀请链接合集，31 个站点，免费额度、签到福利一览。">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --panel: #ffffff;
+    --text: #16181d;
+    --muted: #6b7280;
+    --line: #e4e6eb;
+    --brand: #2f6df6;
+    --brand-soft: #eaf1ff;
+    --ok: #12805c;
+    --ok-soft: #e6f6ef;
+    --warn: #9a6400;
+    --warn-soft: #fdf3e0;
+    --off: #6b7280;
+    --off-soft: #eef0f3;
+    --radius: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --panel: #1c1f26;
+      --text: #e9ecf1;
+      --muted: #9aa3b2;
+      --line: #2b3038;
+      --brand: #6f9dff;
+      --brand-soft: #1e2b47;
+      --ok: #4ed3a3;
+      --ok-soft: #16302a;
+      --warn: #f0b357;
+      --warn-soft: #33291a;
+      --off: #9aa3b2;
+      --off-soft: #262a31;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 40px 20px 64px; }
+  header.hero { text-align: center; margin-bottom: 28px; }
+  header.hero h1 { margin: 0 0 10px; font-size: clamp(24px, 4vw, 34px); letter-spacing: -.3px; }
+  header.hero p.sub { margin: 0 0 18px; color: var(--muted); font-size: 15px; }
+  .stats { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 8px; }
+  .stat {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 999px;
+    padding: 6px 14px; font-size: 13px; color: var(--muted);
+  }
+  .stat b { color: var(--text); font-size: 14px; }
+  .toolbar {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    margin: 26px 0 18px;
+  }
+  .toolbar input[type=search] {
+    flex: 1; min-width: 220px; padding: 10px 14px; font-size: 14px;
+    color: var(--text); background: var(--panel);
+    border: 1px solid var(--line); border-radius: 10px; outline: none;
+  }
+  .toolbar input[type=search]:focus { border-color: var(--brand); }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip {
+    padding: 8px 13px; font-size: 13px; cursor: pointer; user-select: none;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 999px;
+    color: var(--muted); white-space: nowrap;
+  }
+  .chip[aria-pressed="true"] { background: var(--brand-soft); border-color: var(--brand); color: var(--brand); font-weight: 600; }
+  .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); }
+  .card {
+    display: flex; flex-direction: column; gap: 0;
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 16px 16px 14px;
+  }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+  .card-title { margin: 0; font-size: 16px; font-weight: 650; }
+  .badge {
+    flex: none; font-size: 11px; padding: 3px 9px; border-radius: 999px;
+    font-weight: 600; white-space: nowrap;
+  }
+  .badge-yes { background: var(--ok-soft); color: var(--ok); }
+  .badge-no { background: var(--off-soft); color: var(--off); }
+  .badge-limited { background: var(--warn-soft); color: var(--warn); }
+  .badge-unknown { background: var(--off-soft); color: var(--off); }
+  .host {
+    margin: 5px 0 10px; font-size: 12px; color: var(--muted);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    word-break: break-all;
+  }
+  .note { margin: 0 0 12px; font-size: 13px; color: var(--muted); flex: 1; }
+  .aff-row { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+  .aff-label { font-size: 12px; color: var(--muted); }
+  .aff {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px; background: var(--bg); border: 1px solid var(--line);
+    padding: 2px 7px; border-radius: 6px; word-break: break-all;
+  }
+  .actions { display: flex; gap: 8px; }
+  .btn {
+    flex: 1; text-align: center; text-decoration: none; cursor: pointer;
+    font-size: 13px; font-weight: 600; padding: 8px 12px; border-radius: 9px;
+    border: 1px solid transparent; font-family: inherit;
+  }
+  .btn-primary { background: var(--brand); color: #fff; }
+  .btn-primary:hover { filter: brightness(1.08); }
+  .btn-ghost { background: transparent; border-color: var(--line); color: var(--muted); }
+  .btn-ghost:hover { border-color: var(--brand); color: var(--brand); }
+  .empty { padding: 48px 0; text-align: center; color: var(--muted); display: none; }
+  footer {
+    margin-top: 44px; padding-top: 22px; border-top: 1px solid var(--line);
+    font-size: 13px; color: var(--muted);
+  }
+  footer p { margin: 0 0 8px; }
+  footer .warn { color: var(--warn); }
+  .toast {
+    position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px);
+    background: var(--text); color: var(--bg); font-size: 13px; font-weight: 600;
+    padding: 9px 18px; border-radius: 999px; opacity: 0; pointer-events: none;
+    transition: opacity .18s, transform .18s;
+  }
+  .toast.show { opacity: 1; transform: translate(-50%, 0); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <h1>AI 中转站福利导航</h1>
+    <p class="sub">邀请链接合集 · 免费额度 · 白嫖 Claude / GPT / Gemini 的中转站</p>
+    <div class="stats">
+      <span class="stat">收录 <b>31</b> 个站</span>
+      <span class="stat">支持签到 <b>16</b> 个</span>
+      <span class="stat">更新 <b>2026-10-07</b></span>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="搜站点 / 域名 / 邀请码…" autocomplete="off">
+    <div class="chips" id="chips">
+      <button class="chip" type="button" data-filter="all" aria-pressed="true">全部</button>
+      <button class="chip" type="button" data-filter="yes" aria-pressed="false">✅ 有签到</button>
+      <button class="chip" type="button" data-filter="no" aria-pressed="false">➖ 无签到</button>
+      <button class="chip" type="button" data-filter="limited" aria-pressed="false">⚠️ 受限</button>
+      <button class="chip" type="button" data-filter="unknown" aria-pressed="false">❓ 待测</button>
+    </div>
+  </div>
+
+  <main class="grid" id="grid">
+      <article class="card" data-checkin="unknown" data-search="123321ai 123321ai.xyz zllw">
+        <div class="card-head">
+          <h3 class="card-title">123321AI</h3>
+          <span class="badge badge-unknown">❓ 待测</span>
+        </div>
+        <p class="host">123321ai.xyz</p>
+        <p class="note">新增收录，待实测补充</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">zlLW</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://123321ai.xyz/sign-up?aff=zlLW" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://123321ai.xyz/sign-up?aff=zlLW">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="7891vip 7891vip.cc.cd izgo">
+        <div class="card-head">
+          <h3 class="card-title">7891VIP</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">7891vip.cc.cd</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">IZGo</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://7891vip.cc.cd/login?view=reg&aff=IZGo" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://7891vip.cc.cd/login?view=reg&aff=IZGo">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="daoyivip ai.daoyivip.com htgk">
+        <div class="card-head">
+          <h3 class="card-title">DaoYiVIP</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">ai.daoyivip.com</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">hTgk</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ai.daoyivip.com/sign-up?aff=hTgk" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://ai.daoyivip.com/sign-up?aff=hTgk">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="wxctf ai.wxctf.com t19j">
+        <div class="card-head">
+          <h3 class="card-title">WXCTF</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">ai.wxctf.com</p>
+        <p class="note">签到可用；实测部分模型回 503，挑着用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">t19J</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ai.wxctf.com/sign-up?aff=t19J" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://ai.wxctf.com/sign-up?aff=t19J">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="soul api api.319274.xyz fgrp">
+        <div class="card-head">
+          <h3 class="card-title">Soul API</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">api.319274.xyz</p>
+        <p class="note">Key 分组为「跨分组 Auto」，5 个分组按序重试；新人试用 + 订阅额度需在钱包页手动领</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">FGRp</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.319274.xyz/sign-up?aff=FGRp" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.319274.xyz/sign-up?aff=FGRp">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="careke api.careke.cn aln9">
+        <div class="card-head">
+          <h3 class="card-title">Careke</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">api.careke.cn</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">aLn9</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.careke.cn/sign-up?aff=aLn9" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.careke.cn/sign-up?aff=aLn9">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="dzzi api.dzzi.ai y4xe">
+        <div class="card-head">
+          <h3 class="card-title">DZZI</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">api.dzzi.ai</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">Y4XE</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.dzzi.ai/sign-up?aff=Y4XE" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.dzzi.ai/sign-up?aff=Y4XE">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="fuka api.fuka.win iodx">
+        <div class="card-head">
+          <h3 class="card-title">Fuka</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">api.fuka.win</p>
+        <p class="note">本批免费额度最高的站之一，未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">IodX</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.fuka.win/sign-up?aff=IodX" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.fuka.win/sign-up?aff=IodX">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="jiushi api.jiushi.xin 6acg">
+        <div class="card-head">
+          <h3 class="card-title">Jiushi</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">api.jiushi.xin</p>
+        <p class="note">签到实测到账</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">6aCG</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.jiushi.xin/register?aff=6aCG" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.jiushi.xin/register?aff=6aCG">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="jumengai api.jumengai.net nzjg">
+        <div class="card-head">
+          <h3 class="card-title">JuMengAI</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">api.jumengai.net</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">nZJG</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://api.jumengai.net/sign-up?aff=nZJG" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://api.jumengai.net/sign-up?aff=nZJG">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="budsai apichat.budsin.dev 069w">
+        <div class="card-head">
+          <h3 class="card-title">BudsAI</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">apichat.budsin.dev</p>
+        <p class="note">每日签到入口在「个人资料」页底部；模型总量 660 个，邀请奖励约 $15</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">069W</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://apichat.budsin.dev/sign-up?aff=069W" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://apichat.budsin.dev/sign-up?aff=069W">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="unknown" data-search="yunzhou（云舟） cli.999554.xyz pzpq">
+        <div class="card-head">
+          <h3 class="card-title">YunZhou（云舟）</h3>
+          <span class="badge badge-unknown">❓ 待测</span>
+        </div>
+        <p class="host">cli.999554.xyz</p>
+        <p class="note">公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">pzPq</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://cli.999554.xyz/register?aff=pzPq" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://cli.999554.xyz/register?aff=pzPq">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="qianxing fast.qianxing.pro jqjw2odk">
+        <div class="card-head">
+          <h3 class="card-title">QianXing</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">fast.qianxing.pro</p>
+        <p class="note">未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">jQJw2odk</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://fast.qianxing.pro/sign-up?aff=jQJw2odk" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://fast.qianxing.pro/sign-up?aff=jQJw2odk">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="freeapi（露娜） freeapi.site esvtr2m8tsec">
+        <div class="card-head">
+          <h3 class="card-title">FreeAPI（露娜）</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">freeapi.site</p>
+        <p class="note">自研面板（非 NewAPI），免费分组额度大；签到实测 +US$530</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">ESVTR2M8TSEC</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://freeapi.site/register?aff=ESVTR2M8TSEC" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://freeapi.site/register?aff=ESVTR2M8TSEC">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="gemai（哈基米） gemai.huchan.cn ufqexs0a">
+        <div class="card-head">
+          <h3 class="card-title">GemAI（哈基米）</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">gemai.huchan.cn</p>
+        <p class="note">模型 302 个，claude-opus / gemini-3.1-pro / gpt-5.6 系齐全；premium 分组预扣费高</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">UfqexS0A</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://gemai.huchan.cn/sign-up?aff=UfqexS0A" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://gemai.huchan.cn/sign-up?aff=UfqexS0A">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="orangepie i.orangepie.org rwez">
+        <div class="card-head">
+          <h3 class="card-title">OrangePie</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">i.orangepie.org</p>
+        <p class="note">未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">rWez</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://i.orangepie.org/sign-up?aff=rWez" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://i.orangepie.org/sign-up?aff=rWez">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="juziqishui juziqishui.net hmmm">
+        <div class="card-head">
+          <h3 class="card-title">JuZiQiShui</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">juziqishui.net</p>
+        <p class="note">签到实测到账</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">hmmM</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://juziqishui.net/register?aff=hmmM" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://juziqishui.net/register?aff=hmmM">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="kapibala kapibala.asia tkjo">
+        <div class="card-head">
+          <h3 class="card-title">Kapibala</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">kapibala.asia</p>
+        <p class="note">常用模型最稳的一家，推荐日常挂机用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">Tkjo</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://kapibala.asia/sign-up?aff=Tkjo" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://kapibala.asia/sign-up?aff=Tkjo">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="liangjie liangjiewis.com b2fu">
+        <div class="card-head">
+          <h3 class="card-title">LiangJie</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">liangjiewis.com</p>
+        <p class="note">未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">B2Fu</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://liangjiewis.com/register?aff=B2Fu" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://liangjiewis.com/register?aff=B2Fu">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="boluoapi mjj.boluoapi.cn rq1h">
+        <div class="card-head">
+          <h3 class="card-title">BoluoAPI</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">mjj.boluoapi.cn</p>
+        <p class="note">未开签到，但免费额度给得足</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">rQ1h</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://mjj.boluoapi.cn/register?aff=rQ1h" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://mjj.boluoapi.cn/register?aff=rQ1h">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="limited" data-search="monkeyapi monkeyapi.apimonkey.online hmip">
+        <div class="card-head">
+          <h3 class="card-title">MonkeyAPI</h3>
+          <span class="badge badge-limited">⚠️ 受限</span>
+        </div>
+        <p class="host">monkeyapi.apimonkey.online</p>
+        <p class="note">签到有门槛，未达要求时会拒</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">hMiP</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://monkeyapi.apimonkey.online/sign-up?aff=hMiP" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://monkeyapi.apimonkey.online/sign-up?aff=hMiP">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="nikoapi nikoapi.xyz 2evg">
+        <div class="card-head">
+          <h3 class="card-title">NikoAPI</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">nikoapi.xyz</p>
+        <p class="note">未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">2EvG</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://nikoapi.xyz/sign-up?aff=2EvG" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://nikoapi.xyz/sign-up?aff=2EvG">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="selart open.selart.cc 0bnk">
+        <div class="card-head">
+          <h3 class="card-title">Selart</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">open.selart.cc</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">0bnk</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://open.selart.cc/sign-up?aff=0bnk" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://open.selart.cc/sign-up?aff=0bnk">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="qingjiu qingjiu.nemodesk.top 3vh4">
+        <div class="card-head">
+          <h3 class="card-title">QingJiu</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">qingjiu.nemodesk.top</p>
+        <p class="note">签到单次给量在本批里排第一（约 360 万 quota）</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">3vh4</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://qingjiu.nemodesk.top/register?aff=3vh4" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://qingjiu.nemodesk.top/register?aff=3vh4">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="shufulei shufulei.net 8vzq">
+        <div class="card-head">
+          <h3 class="card-title">ShuFuLei</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">shufulei.net</p>
+        <p class="note">签到实测到账</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">8vzQ</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://shufulei.net/register?aff=8vzQ" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://shufulei.net/register?aff=8vzQ">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="unknown" data-search="sunapi sunapi.5201201314.top hnbo">
+        <div class="card-head">
+          <h3 class="card-title">SunAPI</h3>
+          <span class="badge badge-unknown">❓ 待测</span>
+        </div>
+        <p class="host">sunapi.5201201314.top</p>
+        <p class="note">模型 93 个，free 分组 0.05x；被邀请注册额外送额度。Gmail 会被域名策略拒，建议用 QQ 邮箱</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">hnbO</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://sunapi.5201201314.top/sign-up?aff=hnbO" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://sunapi.5201201314.top/sign-up?aff=hnbO">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="unknown" data-search="tokenmetro tokenmetro.com c2pp">
+        <div class="card-head">
+          <h3 class="card-title">TokenMetro</h3>
+          <span class="badge badge-unknown">❓ 待测</span>
+        </div>
+        <p class="host">tokenmetro.com</p>
+        <p class="note">注册页有人机验证，建议浏览器手动注册</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">C2Pp</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://tokenmetro.com/sign-up?aff=C2Pp" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://tokenmetro.com/sign-up?aff=C2Pp">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="limited" data-search="wqdsj wqdsjhaoai.site enr2">
+        <div class="card-head">
+          <h3 class="card-title">WQDSJ</h3>
+          <span class="badge badge-limited">⚠️ 受限</span>
+        </div>
+        <p class="host">wqdsjhaoai.site</p>
+        <p class="note">注册未满 7 天暂不能签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">eNr2</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://wqdsjhaoai.site/sign-up?aff=eNr2" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://wqdsjhaoai.site/sign-up?aff=eNr2">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="no" data-search="aaa api www.aaaapi.fun gwla">
+        <div class="card-head">
+          <h3 class="card-title">AAA API</h3>
+          <span class="badge badge-no">➖ 无签到</span>
+        </div>
+        <p class="host">www.aaaapi.fun</p>
+        <p class="note">未开签到</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">GwLA</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.aaaapi.fun/register?aff=GwLA" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://www.aaaapi.fun/register?aff=GwLA">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="limited" data-search="sheapi www.sheapi.top 9dnb">
+        <div class="card-head">
+          <h3 class="card-title">SheAPI</h3>
+          <span class="badge badge-limited">⚠️ 受限</span>
+        </div>
+        <p class="host">www.sheapi.top</p>
+        <p class="note">签到需过图形验证码</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">9DnB</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.sheapi.top/sign-up?aff=9DnB" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://www.sheapi.top/sign-up?aff=9DnB">复制链接</button>
+        </div>
+      </article>
+      <article class="card" data-checkin="yes" data-search="xingya xingya.site 1ghl">
+        <div class="card-head">
+          <h3 class="card-title">XingYa</h3>
+          <span class="badge badge-yes">✅ 有签到</span>
+        </div>
+        <p class="host">xingya.site</p>
+        <p class="note">每日签到可用</p>
+        <div class="aff-row"><span class="aff-label">邀请码</span><code class="aff">1Ghl</code></div>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://xingya.site/sign-up?aff=1Ghl" target="_blank" rel="noopener">注册</a>
+          <button class="btn btn-ghost" type="button" data-copy="https://xingya.site/sign-up?aff=1Ghl">复制链接</button>
+        </div>
+      </article>
+  </main>
+  <p class="empty" id="empty">没有匹配的站点</p>
+
+  <footer>
+    <p>全部链接均为<b>邀请链接</b>，走这些链接注册，站点给的邀请奖励才会算到你头上。</p>
+    <p class="warn">⚠️ 所有站点均为第三方独立运营，可能随时跑路、改价、清库。不要存放敏感数据，不要在多个站复用同一密码。收录不代表推荐。</p>
+    <p>数据源 <code>data/sites.json</code> ｜ 更新 2026-10-07 ｜ <a href="https://github.com/posstos/ai-relay-welfare">GitHub 仓库</a></p>
+  </footer>
+</div>
+
+<div class="toast" id="toast">已复制</div>
+
+<script>
+(function () {
+  var grid = document.getElementById('grid');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
+  var q = document.getElementById('q');
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var empty = document.getElementById('empty');
+  var toast = document.getElementById('toast');
+  var filter = 'all';
+
+  function apply() {
+    var kw = q.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var okKw = !kw || c.dataset.search.indexOf(kw) !== -1;
+      var okF = filter === 'all' || c.dataset.checkin === filter;
+      var show = okKw && okF;
+      c.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    empty.style.display = shown ? 'none' : 'block';
+  }
+
+  q.addEventListener('input', apply);
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      filter = chip.dataset.filter;
+      chips.forEach(function (c) { c.setAttribute('aria-pressed', String(c === chip)); });
+      apply();
+    });
+  });
+
+  var t;
+  function flash(msg) {
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(t);
+    t = setTimeout(function () { toast.classList.remove('show'); }, 1400);
+  }
+
+  grid.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-copy]');
+    if (!btn) return;
+    var text = btn.dataset.copy;
+    function done() { flash('邀请链接已复制'); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+    } else {
+      fallback(text, done);
+    }
+  });
+
+  function fallback(text, cb) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); cb(); } catch (err) { flash('复制失败，请手动复制'); }
+    document.body.removeChild(ta);
+  }
+})();
+</script>
+</body>
+</html>

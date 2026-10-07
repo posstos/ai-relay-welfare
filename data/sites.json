@@ -1,0 +1,254 @@
+{
+  "updated": "2026-10-07",
+  "repo": "posstos/ai-relay-welfare",
+  "sites": [
+    {
+      "host": "7891vip.cc.cd",
+      "name": "7891VIP",
+      "url": "https://7891vip.cc.cd/login?view=reg&aff=IZGo",
+      "aff": "IZGo",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "ai.daoyivip.com",
+      "name": "DaoYiVIP",
+      "url": "https://ai.daoyivip.com/sign-up?aff=hTgk",
+      "aff": "hTgk",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "ai.wxctf.com",
+      "name": "WXCTF",
+      "url": "https://ai.wxctf.com/sign-up?aff=t19J",
+      "aff": "t19J",
+      "checkin": "yes",
+      "note": "签到可用；实测部分模型回 503，挑着用"
+    },
+    {
+      "host": "api.319274.xyz",
+      "name": "Soul API",
+      "url": "https://api.319274.xyz/sign-up?aff=FGRp",
+      "aff": "FGRp",
+      "checkin": "no",
+      "note": "Key 分组为「跨分组 Auto」，5 个分组按序重试；新人试用 + 订阅额度需在钱包页手动领"
+    },
+    {
+      "host": "api.careke.cn",
+      "name": "Careke",
+      "url": "https://api.careke.cn/sign-up?aff=aLn9",
+      "aff": "aLn9",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "api.dzzi.ai",
+      "name": "DZZI",
+      "url": "https://api.dzzi.ai/sign-up?aff=Y4XE",
+      "aff": "Y4XE",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "api.fuka.win",
+      "name": "Fuka",
+      "url": "https://api.fuka.win/sign-up?aff=IodX",
+      "aff": "IodX",
+      "checkin": "no",
+      "note": "本批免费额度最高的站之一，未开签到"
+    },
+    {
+      "host": "api.jiushi.xin",
+      "name": "Jiushi",
+      "url": "https://api.jiushi.xin/register?aff=6aCG",
+      "aff": "6aCG",
+      "checkin": "yes",
+      "note": "签到实测到账"
+    },
+    {
+      "host": "api.jumengai.net",
+      "name": "JuMengAI",
+      "url": "https://api.jumengai.net/sign-up?aff=nZJG",
+      "aff": "nZJG",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "apichat.budsin.dev",
+      "name": "BudsAI",
+      "url": "https://apichat.budsin.dev/sign-up?aff=069W",
+      "aff": "069W",
+      "checkin": "yes",
+      "note": "每日签到入口在「个人资料」页底部；模型总量 660 个，邀请奖励约 $15"
+    },
+    {
+      "host": "fast.qianxing.pro",
+      "name": "QianXing",
+      "url": "https://fast.qianxing.pro/sign-up?aff=jQJw2odk",
+      "aff": "jQJw2odk",
+      "checkin": "no",
+      "note": "未开签到"
+    },
+    {
+      "host": "freeapi.site",
+      "name": "FreeAPI（露娜）",
+      "url": "https://freeapi.site/register?aff=ESVTR2M8TSEC",
+      "aff": "ESVTR2M8TSEC",
+      "checkin": "yes",
+      "note": "自研面板（非 NewAPI），免费分组额度大；签到实测 +US$530"
+    },
+    {
+      "host": "gemai.huchan.cn",
+      "name": "GemAI（哈基米）",
+      "url": "https://gemai.huchan.cn/sign-up?aff=UfqexS0A",
+      "aff": "UfqexS0A",
+      "checkin": "yes",
+      "note": "模型 302 个，claude-opus / gemini-3.1-pro / gpt-5.6 系齐全；premium 分组预扣费高"
+    },
+    {
+      "host": "i.orangepie.org",
+      "name": "OrangePie",
+      "url": "https://i.orangepie.org/sign-up?aff=rWez",
+      "aff": "rWez",
+      "checkin": "no",
+      "note": "未开签到"
+    },
+    {
+      "host": "juziqishui.net",
+      "name": "JuZiQiShui",
+      "url": "https://juziqishui.net/register?aff=hmmM",
+      "aff": "hmmM",
+      "checkin": "yes",
+      "note": "签到实测到账"
+    },
+    {
+      "host": "kapibala.asia",
+      "name": "Kapibala",
+      "url": "https://kapibala.asia/sign-up?aff=Tkjo",
+      "aff": "Tkjo",
+      "checkin": "yes",
+      "note": "常用模型最稳的一家，推荐日常挂机用"
+    },
+    {
+      "host": "liangjiewis.com",
+      "name": "LiangJie",
+      "url": "https://liangjiewis.com/register?aff=B2Fu",
+      "aff": "B2Fu",
+      "checkin": "no",
+      "note": "未开签到"
+    },
+    {
+      "host": "mjj.boluoapi.cn",
+      "name": "BoluoAPI",
+      "url": "https://mjj.boluoapi.cn/register?aff=rQ1h",
+      "aff": "rQ1h",
+      "checkin": "no",
+      "note": "未开签到，但免费额度给得足"
+    },
+    {
+      "host": "monkeyapi.apimonkey.online",
+      "name": "MonkeyAPI",
+      "url": "https://monkeyapi.apimonkey.online/sign-up?aff=hMiP",
+      "aff": "hMiP",
+      "checkin": "limited",
+      "note": "签到有门槛，未达要求时会拒"
+    },
+    {
+      "host": "nikoapi.xyz",
+      "name": "NikoAPI",
+      "url": "https://nikoapi.xyz/sign-up?aff=2EvG",
+      "aff": "2EvG",
+      "checkin": "no",
+      "note": "未开签到"
+    },
+    {
+      "host": "open.selart.cc",
+      "name": "Selart",
+      "url": "https://open.selart.cc/sign-up?aff=0bnk",
+      "aff": "0bnk",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "qingjiu.nemodesk.top",
+      "name": "QingJiu",
+      "url": "https://qingjiu.nemodesk.top/register?aff=3vh4",
+      "aff": "3vh4",
+      "checkin": "yes",
+      "note": "签到单次给量在本批里排第一（约 360 万 quota）"
+    },
+    {
+      "host": "shufulei.net",
+      "name": "ShuFuLei",
+      "url": "https://shufulei.net/register?aff=8vzQ",
+      "aff": "8vzQ",
+      "checkin": "yes",
+      "note": "签到实测到账"
+    },
+    {
+      "host": "sunapi.5201201314.top",
+      "name": "SunAPI",
+      "url": "https://sunapi.5201201314.top/sign-up?aff=hnbO",
+      "aff": "hnbO",
+      "checkin": "unknown",
+      "note": "模型 93 个，free 分组 0.05x；被邀请注册额外送额度。Gmail 会被域名策略拒，建议用 QQ 邮箱"
+    },
+    {
+      "host": "tokenmetro.com",
+      "name": "TokenMetro",
+      "url": "https://tokenmetro.com/sign-up?aff=C2Pp",
+      "aff": "C2Pp",
+      "checkin": "unknown",
+      "note": "注册页有人机验证，建议浏览器手动注册"
+    },
+    {
+      "host": "wqdsjhaoai.site",
+      "name": "WQDSJ",
+      "url": "https://wqdsjhaoai.site/sign-up?aff=eNr2",
+      "aff": "eNr2",
+      "checkin": "limited",
+      "note": "注册未满 7 天暂不能签到"
+    },
+    {
+      "host": "www.aaaapi.fun",
+      "name": "AAA API",
+      "url": "https://www.aaaapi.fun/register?aff=GwLA",
+      "aff": "GwLA",
+      "checkin": "no",
+      "note": "未开签到"
+    },
+    {
+      "host": "www.sheapi.top",
+      "name": "SheAPI",
+      "url": "https://www.sheapi.top/sign-up?aff=9DnB",
+      "aff": "9DnB",
+      "checkin": "limited",
+      "note": "签到需过图形验证码"
+    },
+    {
+      "host": "xingya.site",
+      "name": "XingYa",
+      "url": "https://xingya.site/sign-up?aff=1Ghl",
+      "aff": "1Ghl",
+      "checkin": "yes",
+      "note": "每日签到可用"
+    },
+    {
+      "host": "cli.999554.xyz",
+      "name": "YunZhou（云舟）",
+      "url": "https://cli.999554.xyz/register?aff=pzPq",
+      "aff": "pzPq",
+      "checkin": "unknown",
+      "note": "公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用"
+    },
+    {
+      "host": "123321ai.xyz",
+      "name": "123321AI",
+      "url": "https://123321ai.xyz/sign-up?aff=zlLW",
+      "aff": "zlLW",
+      "checkin": "unknown",
+      "note": "新增收录，待实测补充"
+    }
+  ]
+}

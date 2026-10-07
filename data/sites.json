@@ -249,6 +249,22 @@
       "aff": "zlLW",
       "checkin": "unknown",
       "note": "新增收录，待实测补充"
+    },
+    {
+      "host": "api.fri5.top",
+      "name": "星期五API",
+      "url": "https://api.fri5.top/sign-up?aff=jl9E",
+      "aff": "jl9E",
+      "checkin": "yes",
+      "note": "站点名「星期五API」；无人机验证，注册需邮箱验证码"
+    },
+    {
+      "host": "chuan.sylu.cc",
+      "name": "启源星",
+      "url": "https://chuan.sylu.cc/sign-up?aff=bH36",
+      "aff": "bH36",
+      "checkin": "yes",
+      "note": "站点名「启源星」；注册需过 Turnstile 人机验证，建议浏览器手动注册；支持 GitHub 登录，QQ 群 1031713378"
     }
   ]
 }

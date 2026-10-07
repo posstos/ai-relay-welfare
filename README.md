@@ -3,8 +3,8 @@
 <p align="center">邀请链接合集 · 免费额度 · 白嫖 Claude / GPT / Gemini 的中转站</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-31%20%E4%B8%AA-blue" alt="收录站点">
-  <img src="https://img.shields.io/badge/%E6%94%AF%E6%8C%81%E7%AD%BE%E5%88%B0-16%20%E4%B8%AA-brightgreen" alt="支持签到">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-33%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E6%94%AF%E6%8C%81%E7%AD%BE%E5%88%B0-18%20%E4%B8%AA-brightgreen" alt="支持签到">
   <img src="https://img.shields.io/badge/%E6%9E%B6%E6%9E%84-NewAPI%20%E4%B8%AD%E8%BD%AC-orange" alt="架构">
   <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026-10-07-informational" alt="更新">
 </p>
@@ -17,10 +17,12 @@
   <a href="https://api.319274.xyz/sign-up?aff=FGRp"><b>Soul API</b></a> ·
   <a href="https://api.careke.cn/sign-up?aff=aLn9"><b>Careke</b></a> ·
   <a href="https://api.dzzi.ai/sign-up?aff=Y4XE"><b>DZZI</b></a> ·
+  <a href="https://api.fri5.top/sign-up?aff=jl9E"><b>星期五API</b></a> ·
   <a href="https://api.fuka.win/sign-up?aff=IodX"><b>Fuka</b></a> ·
   <a href="https://api.jiushi.xin/register?aff=6aCG"><b>Jiushi</b></a> ·
   <a href="https://api.jumengai.net/sign-up?aff=nZJG"><b>JuMengAI</b></a> ·
   <a href="https://apichat.budsin.dev/sign-up?aff=069W"><b>BudsAI</b></a> ·
+  <a href="https://chuan.sylu.cc/sign-up?aff=bH36"><b>启源星</b></a> ·
   <a href="https://cli.999554.xyz/register?aff=pzPq"><b>YunZhou（云舟）</b></a> ·
   <a href="https://fast.qianxing.pro/sign-up?aff=jQJw2odk"><b>QianXing</b></a> ·
   <a href="https://freeapi.site/register?aff=ESVTR2M8TSEC"><b>FreeAPI（露娜）</b></a> ·
@@ -59,36 +61,38 @@
 | 5 | **Soul API**<br>`api.319274.xyz` | ➖ 无签到 | Key 分组为「跨分组 Auto」，5 个分组按序重试；新人试用 + 订阅额度需在钱包页手动领 | [点此注册 →](https://api.319274.xyz/sign-up?aff=FGRp) | `FGRp` |
 | 6 | **Careke**<br>`api.careke.cn` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://api.careke.cn/sign-up?aff=aLn9) | `aLn9` |
 | 7 | **DZZI**<br>`api.dzzi.ai` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://api.dzzi.ai/sign-up?aff=Y4XE) | `Y4XE` |
-| 8 | **Fuka**<br>`api.fuka.win` | ➖ 无签到 | 本批免费额度最高的站之一，未开签到 | [点此注册 →](https://api.fuka.win/sign-up?aff=IodX) | `IodX` |
-| 9 | **Jiushi**<br>`api.jiushi.xin` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://api.jiushi.xin/register?aff=6aCG) | `6aCG` |
-| 10 | **JuMengAI**<br>`api.jumengai.net` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://api.jumengai.net/sign-up?aff=nZJG) | `nZJG` |
-| 11 | **BudsAI**<br>`apichat.budsin.dev` | ✅ 有签到 | 每日签到入口在「个人资料」页底部；模型总量 660 个，邀请奖励约 $15 | [点此注册 →](https://apichat.budsin.dev/sign-up?aff=069W) | `069W` |
-| 12 | **YunZhou（云舟）**<br>`cli.999554.xyz` | ❓ 待测 | 公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用 | [点此注册 →](https://cli.999554.xyz/register?aff=pzPq) | `pzPq` |
-| 13 | **QianXing**<br>`fast.qianxing.pro` | ➖ 无签到 | 未开签到 | [点此注册 →](https://fast.qianxing.pro/sign-up?aff=jQJw2odk) | `jQJw2odk` |
-| 14 | **FreeAPI（露娜）**<br>`freeapi.site` | ✅ 有签到 | 自研面板（非 NewAPI），免费分组额度大；签到实测 +US$530 | [点此注册 →](https://freeapi.site/register?aff=ESVTR2M8TSEC) | `ESVTR2M8TSEC` |
-| 15 | **GemAI（哈基米）**<br>`gemai.huchan.cn` | ✅ 有签到 | 模型 302 个，claude-opus / gemini-3.1-pro / gpt-5.6 系齐全；premium 分组预扣费高 | [点此注册 →](https://gemai.huchan.cn/sign-up?aff=UfqexS0A) | `UfqexS0A` |
-| 16 | **OrangePie**<br>`i.orangepie.org` | ➖ 无签到 | 未开签到 | [点此注册 →](https://i.orangepie.org/sign-up?aff=rWez) | `rWez` |
-| 17 | **JuZiQiShui**<br>`juziqishui.net` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://juziqishui.net/register?aff=hmmM) | `hmmM` |
-| 18 | **Kapibala**<br>`kapibala.asia` | ✅ 有签到 | 常用模型最稳的一家，推荐日常挂机用 | [点此注册 →](https://kapibala.asia/sign-up?aff=Tkjo) | `Tkjo` |
-| 19 | **LiangJie**<br>`liangjiewis.com` | ➖ 无签到 | 未开签到 | [点此注册 →](https://liangjiewis.com/register?aff=B2Fu) | `B2Fu` |
-| 20 | **BoluoAPI**<br>`mjj.boluoapi.cn` | ➖ 无签到 | 未开签到，但免费额度给得足 | [点此注册 →](https://mjj.boluoapi.cn/register?aff=rQ1h) | `rQ1h` |
-| 21 | **MonkeyAPI**<br>`monkeyapi.apimonkey.online` | ⚠️ 受限 | 签到有门槛，未达要求时会拒 | [点此注册 →](https://monkeyapi.apimonkey.online/sign-up?aff=hMiP) | `hMiP` |
-| 22 | **NikoAPI**<br>`nikoapi.xyz` | ➖ 无签到 | 未开签到 | [点此注册 →](https://nikoapi.xyz/sign-up?aff=2EvG) | `2EvG` |
-| 23 | **Selart**<br>`open.selart.cc` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://open.selart.cc/sign-up?aff=0bnk) | `0bnk` |
-| 24 | **QingJiu**<br>`qingjiu.nemodesk.top` | ✅ 有签到 | 签到单次给量在本批里排第一（约 360 万 quota） | [点此注册 →](https://qingjiu.nemodesk.top/register?aff=3vh4) | `3vh4` |
-| 25 | **ShuFuLei**<br>`shufulei.net` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://shufulei.net/register?aff=8vzQ) | `8vzQ` |
-| 26 | **SunAPI**<br>`sunapi.5201201314.top` | ❓ 待测 | 模型 93 个，free 分组 0.05x；被邀请注册额外送额度。Gmail 会被域名策略拒，建议用 QQ 邮箱 | [点此注册 →](https://sunapi.5201201314.top/sign-up?aff=hnbO) | `hnbO` |
-| 27 | **TokenMetro**<br>`tokenmetro.com` | ❓ 待测 | 注册页有人机验证，建议浏览器手动注册 | [点此注册 →](https://tokenmetro.com/sign-up?aff=C2Pp) | `C2Pp` |
-| 28 | **WQDSJ**<br>`wqdsjhaoai.site` | ⚠️ 受限 | 注册未满 7 天暂不能签到 | [点此注册 →](https://wqdsjhaoai.site/sign-up?aff=eNr2) | `eNr2` |
-| 29 | **AAA API**<br>`www.aaaapi.fun` | ➖ 无签到 | 未开签到 | [点此注册 →](https://www.aaaapi.fun/register?aff=GwLA) | `GwLA` |
-| 30 | **SheAPI**<br>`www.sheapi.top` | ⚠️ 受限 | 签到需过图形验证码 | [点此注册 →](https://www.sheapi.top/sign-up?aff=9DnB) | `9DnB` |
-| 31 | **XingYa**<br>`xingya.site` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://xingya.site/sign-up?aff=1Ghl) | `1Ghl` |
+| 8 | **星期五API**<br>`api.fri5.top` | ✅ 有签到 | 站点名「星期五API」；无人机验证，注册需邮箱验证码 | [点此注册 →](https://api.fri5.top/sign-up?aff=jl9E) | `jl9E` |
+| 9 | **Fuka**<br>`api.fuka.win` | ➖ 无签到 | 本批免费额度最高的站之一，未开签到 | [点此注册 →](https://api.fuka.win/sign-up?aff=IodX) | `IodX` |
+| 10 | **Jiushi**<br>`api.jiushi.xin` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://api.jiushi.xin/register?aff=6aCG) | `6aCG` |
+| 11 | **JuMengAI**<br>`api.jumengai.net` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://api.jumengai.net/sign-up?aff=nZJG) | `nZJG` |
+| 12 | **BudsAI**<br>`apichat.budsin.dev` | ✅ 有签到 | 每日签到入口在「个人资料」页底部；模型总量 660 个，邀请奖励约 $15 | [点此注册 →](https://apichat.budsin.dev/sign-up?aff=069W) | `069W` |
+| 13 | **启源星**<br>`chuan.sylu.cc` | ✅ 有签到 | 站点名「启源星」；注册需过 Turnstile 人机验证，建议浏览器手动注册；支持 GitHub 登录，QQ 群 1031713378 | [点此注册 →](https://chuan.sylu.cc/sign-up?aff=bH36) | `bH36` |
+| 14 | **YunZhou（云舟）**<br>`cli.999554.xyz` | ❓ 待测 | 公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用 | [点此注册 →](https://cli.999554.xyz/register?aff=pzPq) | `pzPq` |
+| 15 | **QianXing**<br>`fast.qianxing.pro` | ➖ 无签到 | 未开签到 | [点此注册 →](https://fast.qianxing.pro/sign-up?aff=jQJw2odk) | `jQJw2odk` |
+| 16 | **FreeAPI（露娜）**<br>`freeapi.site` | ✅ 有签到 | 自研面板（非 NewAPI），免费分组额度大；签到实测 +US$530 | [点此注册 →](https://freeapi.site/register?aff=ESVTR2M8TSEC) | `ESVTR2M8TSEC` |
+| 17 | **GemAI（哈基米）**<br>`gemai.huchan.cn` | ✅ 有签到 | 模型 302 个，claude-opus / gemini-3.1-pro / gpt-5.6 系齐全；premium 分组预扣费高 | [点此注册 →](https://gemai.huchan.cn/sign-up?aff=UfqexS0A) | `UfqexS0A` |
+| 18 | **OrangePie**<br>`i.orangepie.org` | ➖ 无签到 | 未开签到 | [点此注册 →](https://i.orangepie.org/sign-up?aff=rWez) | `rWez` |
+| 19 | **JuZiQiShui**<br>`juziqishui.net` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://juziqishui.net/register?aff=hmmM) | `hmmM` |
+| 20 | **Kapibala**<br>`kapibala.asia` | ✅ 有签到 | 常用模型最稳的一家，推荐日常挂机用 | [点此注册 →](https://kapibala.asia/sign-up?aff=Tkjo) | `Tkjo` |
+| 21 | **LiangJie**<br>`liangjiewis.com` | ➖ 无签到 | 未开签到 | [点此注册 →](https://liangjiewis.com/register?aff=B2Fu) | `B2Fu` |
+| 22 | **BoluoAPI**<br>`mjj.boluoapi.cn` | ➖ 无签到 | 未开签到，但免费额度给得足 | [点此注册 →](https://mjj.boluoapi.cn/register?aff=rQ1h) | `rQ1h` |
+| 23 | **MonkeyAPI**<br>`monkeyapi.apimonkey.online` | ⚠️ 受限 | 签到有门槛，未达要求时会拒 | [点此注册 →](https://monkeyapi.apimonkey.online/sign-up?aff=hMiP) | `hMiP` |
+| 24 | **NikoAPI**<br>`nikoapi.xyz` | ➖ 无签到 | 未开签到 | [点此注册 →](https://nikoapi.xyz/sign-up?aff=2EvG) | `2EvG` |
+| 25 | **Selart**<br>`open.selart.cc` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://open.selart.cc/sign-up?aff=0bnk) | `0bnk` |
+| 26 | **QingJiu**<br>`qingjiu.nemodesk.top` | ✅ 有签到 | 签到单次给量在本批里排第一（约 360 万 quota） | [点此注册 →](https://qingjiu.nemodesk.top/register?aff=3vh4) | `3vh4` |
+| 27 | **ShuFuLei**<br>`shufulei.net` | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://shufulei.net/register?aff=8vzQ) | `8vzQ` |
+| 28 | **SunAPI**<br>`sunapi.5201201314.top` | ❓ 待测 | 模型 93 个，free 分组 0.05x；被邀请注册额外送额度。Gmail 会被域名策略拒，建议用 QQ 邮箱 | [点此注册 →](https://sunapi.5201201314.top/sign-up?aff=hnbO) | `hnbO` |
+| 29 | **TokenMetro**<br>`tokenmetro.com` | ❓ 待测 | 注册页有人机验证，建议浏览器手动注册 | [点此注册 →](https://tokenmetro.com/sign-up?aff=C2Pp) | `C2Pp` |
+| 30 | **WQDSJ**<br>`wqdsjhaoai.site` | ⚠️ 受限 | 注册未满 7 天暂不能签到 | [点此注册 →](https://wqdsjhaoai.site/sign-up?aff=eNr2) | `eNr2` |
+| 31 | **AAA API**<br>`www.aaaapi.fun` | ➖ 无签到 | 未开签到 | [点此注册 →](https://www.aaaapi.fun/register?aff=GwLA) | `GwLA` |
+| 32 | **SheAPI**<br>`www.sheapi.top` | ⚠️ 受限 | 签到需过图形验证码 | [点此注册 →](https://www.sheapi.top/sign-up?aff=9DnB) | `9DnB` |
+| 33 | **XingYa**<br>`xingya.site` | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://xingya.site/sign-up?aff=1Ghl) | `1Ghl` |
 
 > **签到**列：✅ 有每日签到 ｜ ➖ 未开签到功能 ｜ ⚠️ 有门槛/需人工过验证 ｜ ❓ 待实测。
 >
 > **说明**列为实测备注，随站点变动会过期，仅供参考。额度、模型、价格一律以站内实际为准。
 >
-> 收录 `31` 个站，其中 `16` 个确认支持每日签到。数据更新：`2026-10-07`。
+> 收录 `33` 个站，其中 `18` 个确认支持每日签到。数据更新：`2026-10-07`。
 
 ## 📖 怎么用
 
@@ -112,16 +116,18 @@ Claude Code / Codex CLI 之类的工具，把 `ANTHROPIC_BASE_URL` 或 `OPENAI_B
 
 ## 🔍 站点分类
 
-### ✅ 有每日签到（16 个）
+### ✅ 有每日签到（18 个）
 
 - **7891VIP** `7891vip.cc.cd` — 每日签到可用
 - **DaoYiVIP** `ai.daoyivip.com` — 每日签到可用
 - **WXCTF** `ai.wxctf.com` — 签到可用；实测部分模型回 503，挑着用
 - **Careke** `api.careke.cn` — 每日签到可用
 - **DZZI** `api.dzzi.ai` — 每日签到可用
+- **星期五API** `api.fri5.top` — 站点名「星期五API」；无人机验证，注册需邮箱验证码
 - **Jiushi** `api.jiushi.xin` — 签到实测到账
 - **JuMengAI** `api.jumengai.net` — 每日签到可用
 - **BudsAI** `apichat.budsin.dev` — 每日签到入口在「个人资料」页底部；模型总量 660 个，邀请奖励约 $15
+- **启源星** `chuan.sylu.cc` — 站点名「启源星」；注册需过 Turnstile 人机验证，建议浏览器手动注册；支持 GitHub 登录，QQ 群 1031713378
 - **FreeAPI（露娜）** `freeapi.site` — 自研面板（非 NewAPI），免费分组额度大；签到实测 +US$530
 - **GemAI（哈基米）** `gemai.huchan.cn` — 模型 302 个，claude-opus / gemini-3.1-pro / gpt-5.6 系齐全；premium 分组预扣费高
 - **JuZiQiShui** `juziqishui.net` — 签到实测到账

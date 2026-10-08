@@ -193,7 +193,7 @@
       "aff": "hnbO",
       "checkin": "unknown",
       "note": "模型 93 个，free 分组 0.05x；被邀请注册额外送额度。Gmail 会被域名策略拒，建议用 QQ 邮箱",
-      "pinned": true
+      "rank": 1
     },
     {
       "host": "tokenmetro.com",
@@ -241,7 +241,8 @@
       "url": "https://cli.999554.xyz/register?aff=pzPq",
       "aff": "pzPq",
       "checkin": "unknown",
-      "note": "公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用"
+      "note": "公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用",
+      "rank": 2
     },
     {
       "host": "123321ai.xyz",

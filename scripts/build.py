@@ -25,7 +25,8 @@ CHECKIN_LABEL = {
 def load():
     with io.open(DATA, encoding="utf-8") as f:
         d = json.load(f)
-    d["sites"].sort(key=lambda s: (0 if s.get("pinned") else 1, s["host"].lower()))
+    # rank 越小越靠前（未标 rank 的排到最后，组内按 host 字母序）
+    d["sites"].sort(key=lambda s: (s.get("rank", 999), s["host"].lower()))
     return d
 
 

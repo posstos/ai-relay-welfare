@@ -25,7 +25,7 @@ CHECKIN_LABEL = {
 def load():
     with io.open(DATA, encoding="utf-8") as f:
         d = json.load(f)
-    d["sites"].sort(key=lambda s: s["host"].lower())
+    d["sites"].sort(key=lambda s: (0 if s.get("pinned") else 1, s["host"].lower()))
     return d
 
 

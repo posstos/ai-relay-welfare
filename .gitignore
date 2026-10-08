@@ -20,3 +20,6 @@ Thumbs.db
 # 飞书文档创作草稿（docs +script 生成，含本地工作区）
 draft_*/
 gen_doc.py
+
+# 飞书文档读写的中转文件（docs +fetch / +update 的落盘输出）
+_*

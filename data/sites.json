@@ -8,7 +8,8 @@
       "url": "https://7891vip.cc.cd/login?view=reg&aff=IZGo",
       "aff": "IZGo",
       "checkin": "yes",
-      "note": "每日签到可用"
+      "note": "每日签到可用",
+      "rank": 3
     },
     {
       "host": "ai.daoyivip.com",
@@ -16,7 +17,8 @@
       "url": "https://ai.daoyivip.com/sign-up?aff=hTgk",
       "aff": "hTgk",
       "checkin": "yes",
-      "note": "每日签到可用"
+      "note": "每日签到可用",
+      "rank": 4
     },
     {
       "host": "ai.wxctf.com",
@@ -243,6 +245,15 @@
       "checkin": "unknown",
       "note": "公益分组 0.01x，DeepSeek-V4-Flash[free] 实测可用",
       "rank": 2
+    },
+    {
+      "host": "cheaprouter.cc",
+      "name": "CheapRouter",
+      "url": "https://cheaprouter.cc/register?ref=KTSYKR_L",
+      "aff": "KTSYKR_L",
+      "checkin": "no",
+      "note": "自研面板（非 NewAPI），Claude Code / Codex 一键接入；OpenAI / Anthropic 兼容，直连 Claude / GPT / Grok 与国产模型；有推荐邀请，无签到",
+      "rank": 5
     },
     {
       "host": "api.fri5.top",

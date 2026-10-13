@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-13",
   "repo": "posstos/ai-relay-welfare",
   "sites": [
     {
@@ -9,7 +9,7 @@
       "aff": "IZGo",
       "checkin": "yes",
       "note": "每日签到可用",
-      "rank": 3
+      "rank": 4
     },
     {
       "host": "ai.daoyivip.com",
@@ -18,7 +18,7 @@
       "aff": "hTgk",
       "checkin": "yes",
       "note": "每日签到可用",
-      "rank": 4
+      "rank": 5
     },
     {
       "host": "ai.wxctf.com",
@@ -253,7 +253,16 @@
       "aff": "KTSYKR_L",
       "checkin": "no",
       "note": "自研面板（非 NewAPI），Claude Code / Codex 一键接入；OpenAI / Anthropic 兼容，直连 Claude / GPT / Grok 与国产模型；有推荐邀请，无签到",
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "host": "tierflow.cn",
+      "name": "TierFlow",
+      "url": "https://tierflow.cn/register?referral_code=TvC9OF5rw9Ee",
+      "aff": "TvC9OF5rw9Ee",
+      "checkin": "limited",
+      "note": "标准 NewAPI 站；签到接口存在但登录启用了 GoCaptcha 图形验证码，脚本批量签到暂不可行；实名认证开启；quota_per_unit=500000（50 万 quota=$1）",
+      "rank": 3
     },
     {
       "host": "api.fri5.top",

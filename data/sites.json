@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-15",
   "repo": "posstos/ai-relay-welfare",
   "sites": [
     {
@@ -18,7 +18,7 @@
       "aff": "hTgk",
       "checkin": "yes",
       "note": "每日签到可用",
-      "rank": 5
+      "rank": 6
     },
     {
       "host": "ai.wxctf.com",
@@ -253,7 +253,16 @@
       "aff": "KTSYKR_L",
       "checkin": "no",
       "note": "自研面板（非 NewAPI），Claude Code / Codex 一键接入；OpenAI / Anthropic 兼容，直连 Claude / GPT / Grok 与国产模型；有推荐邀请，无签到",
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "host": "unorouter.com",
+      "name": "UnoRouter",
+      "url": "https://unorouter.com/register?aff=BNAU",
+      "aff": "BNAU",
+      "checkin": "no",
+      "note": "聚合中转（非 NewAPI），OpenAI 兼容；模型 230+，官方标 99 个免费档（含 claude-opus-5 / claude-sonnet-5:free 等）；注册需邮箱验证码，支持 GitHub / Discord / Google 登录；无签到；Base URL https://unorouter.com/v1",
+      "rank": 5
     },
     {
       "host": "tierflow.cn",

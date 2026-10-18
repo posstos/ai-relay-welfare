@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-18",
   "repo": "posstos/ai-relay-welfare",
   "sites": [
     {
@@ -18,7 +18,7 @@
       "aff": "hTgk",
       "checkin": "yes",
       "note": "每日签到可用",
-      "rank": 6
+      "rank": 7
     },
     {
       "host": "ai.wxctf.com",
@@ -253,7 +253,7 @@
       "aff": "KTSYKR_L",
       "checkin": "no",
       "note": "自研面板（非 NewAPI），Claude Code / Codex 一键接入；OpenAI / Anthropic 兼容，直连 Claude / GPT / Grok 与国产模型；有推荐邀请，无签到",
-      "rank": 7
+      "rank": 8
     },
     {
       "host": "unorouter.com",
@@ -262,7 +262,7 @@
       "aff": "BNAU",
       "checkin": "no",
       "note": "聚合中转（非 NewAPI），OpenAI 兼容；模型 230+，官方标 99 个免费档（含 claude-opus-5 / claude-sonnet-5:free 等）；注册需邮箱验证码，支持 GitHub / Discord / Google 登录；无签到；Base URL https://unorouter.com/v1",
-      "rank": 5
+      "rank": 6
     },
     {
       "host": "tierflow.cn",
@@ -288,6 +288,15 @@
       "aff": "bH36",
       "checkin": "yes",
       "note": "站点名「启源星」；注册需过 Turnstile 人机验证，建议浏览器手动注册；支持 GitHub 登录，QQ 群 1031713378"
+    },
+    {
+      "host": "api.camel-hub.com",
+      "name": "CaMeL AI",
+      "url": "https://api.camel-hub.com/register?aff=aLT8",
+      "aff": "aLT8",
+      "checkin": "limited",
+      "note": "NewAPI 站（system_name: CaMeL AI，运营方 Nodexi Agentics, LLC）；公告明令「禁止机器人签到，持续使用将限制账户服务」并上线非正常邀请检测，故本站只做收录、不纳入自动签到脚本；实名制开启，阿里云验证码；邀请奖励 $5/人；国内优化线路 api.camel-hub.cn",
+      "rank": 5
     }
   ]
 }

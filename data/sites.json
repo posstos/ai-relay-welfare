@@ -297,6 +297,14 @@
       "checkin": "limited",
       "note": "NewAPI 站（system_name: CaMeL AI，运营方 Nodexi Agentics, LLC）；公告明令「禁止机器人签到，持续使用将限制账户服务」并上线非正常邀请检测，故本站只做收录、不纳入自动签到脚本；实名制开启，阿里云验证码；邀请奖励 $5/人；国内优化线路 api.camel-hub.cn",
       "rank": 5
+    },
+    {
+      "host": "relaycore.cn",
+      "name": "RelayCore",
+      "url": "https://relaycore.cn/register?aff=YJ6EYCK6XFWF",
+      "aff": "YJ6EYCK6XFWF",
+      "checkin": "no",
+      "note": "Sub2API 架构（非 NewAPI），无每日签到；PriceAI 榜 2026-11-22 快照综合第 2，近 7 日可用率 99.4%；GPT 系 0.05x 起、Claude 系 0.06x 起，个人实测 Claude 主力分组缓存命中约 80-90%；充值 ¥1=1 额度，余额可按规则退款"
     }
   ]
 }

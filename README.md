@@ -3,7 +3,7 @@
 <p align="center">邀请链接合集 · 免费额度 · 白嫖 Claude / GPT / Gemini 的中转站</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-36%20%E4%B8%AA-blue" alt="收录站点">
+  <img src="https://img.shields.io/badge/%E6%94%B6%E5%BD%95%E7%AB%99%E7%82%B9-37%20%E4%B8%AA-blue" alt="收录站点">
   <img src="https://img.shields.io/badge/%E6%94%AF%E6%8C%81%E7%AD%BE%E5%88%B0-18%20%E4%B8%AA-brightgreen" alt="支持签到">
   <img src="https://img.shields.io/badge/%E6%9E%B6%E6%9E%84-NewAPI%20%E4%B8%AD%E8%BD%AC-orange" alt="架构">
   <img src="https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026-10-18-informational" alt="更新">
@@ -40,6 +40,7 @@
   <a href="https://nikoapi.xyz/sign-up?aff=2EvG"><b>NikoAPI</b></a> ·
   <a href="https://open.selart.cc/sign-up?aff=0bnk"><b>Selart</b></a> ·
   <a href="https://qingjiu.nemodesk.top/register?aff=3vh4"><b>QingJiu</b></a> ·
+  <a href="https://relaycore.cn/register?aff=YJ6EYCK6XFWF"><b>RelayCore</b></a> ·
   <a href="https://shufulei.net/register?aff=8vzQ"><b>ShuFuLei</b></a> ·
   <a href="https://tokenmetro.com/sign-up?aff=C2Pp"><b>TokenMetro</b></a> ·
   <a href="https://wqdsjhaoai.site/sign-up?aff=eNr2"><b>WQDSJ</b></a> ·
@@ -87,18 +88,19 @@
 | 28 | **NikoAPI** | ➖ 无签到 | 未开签到 | [点此注册 →](https://nikoapi.xyz/sign-up?aff=2EvG) | `2EvG` |
 | 29 | **Selart** | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://open.selart.cc/sign-up?aff=0bnk) | `0bnk` |
 | 30 | **QingJiu** | ✅ 有签到 | 签到单次给量在本批里排第一（约 360 万 quota） | [点此注册 →](https://qingjiu.nemodesk.top/register?aff=3vh4) | `3vh4` |
-| 31 | **ShuFuLei** | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://shufulei.net/register?aff=8vzQ) | `8vzQ` |
-| 32 | **TokenMetro** | ❓ 待测 | 注册页有人机验证，建议浏览器手动注册 | [点此注册 →](https://tokenmetro.com/sign-up?aff=C2Pp) | `C2Pp` |
-| 33 | **WQDSJ** | ⚠️ 受限 | 注册未满 7 天暂不能签到 | [点此注册 →](https://wqdsjhaoai.site/sign-up?aff=eNr2) | `eNr2` |
-| 34 | **AAA API** | ➖ 无签到 | 未开签到 | [点此注册 →](https://www.aaaapi.fun/register?aff=GwLA) | `GwLA` |
-| 35 | **SheAPI** | ⚠️ 受限 | 签到需过图形验证码 | [点此注册 →](https://www.sheapi.top/sign-up?aff=9DnB) | `9DnB` |
-| 36 | **XingYa** | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://xingya.site/sign-up?aff=1Ghl) | `1Ghl` |
+| 31 | **RelayCore** | ➖ 无签到 | Sub2API 架构（非 NewAPI），无每日签到；PriceAI 榜 2026-11-22 快照综合第 2，近 7 日可用率 99.4%；GPT 系 0.05x 起、Claude 系 0.06x 起，个人实测 Claude 主力分组缓存命中约 80-90%；充值 ¥1=1 额度，余额可按规则退款 | [点此注册 →](https://relaycore.cn/register?aff=YJ6EYCK6XFWF) | `YJ6EYCK6XFWF` |
+| 32 | **ShuFuLei** | ✅ 有签到 | 签到实测到账 | [点此注册 →](https://shufulei.net/register?aff=8vzQ) | `8vzQ` |
+| 33 | **TokenMetro** | ❓ 待测 | 注册页有人机验证，建议浏览器手动注册 | [点此注册 →](https://tokenmetro.com/sign-up?aff=C2Pp) | `C2Pp` |
+| 34 | **WQDSJ** | ⚠️ 受限 | 注册未满 7 天暂不能签到 | [点此注册 →](https://wqdsjhaoai.site/sign-up?aff=eNr2) | `eNr2` |
+| 35 | **AAA API** | ➖ 无签到 | 未开签到 | [点此注册 →](https://www.aaaapi.fun/register?aff=GwLA) | `GwLA` |
+| 36 | **SheAPI** | ⚠️ 受限 | 签到需过图形验证码 | [点此注册 →](https://www.sheapi.top/sign-up?aff=9DnB) | `9DnB` |
+| 37 | **XingYa** | ✅ 有签到 | 每日签到可用 | [点此注册 →](https://xingya.site/sign-up?aff=1Ghl) | `1Ghl` |
 
 > **签到**列：✅ 有每日签到 ｜ ➖ 未开签到功能 ｜ ⚠️ 有门槛/需人工过验证 ｜ ❓ 待实测。
 >
 > **说明**列为实测备注，随站点变动会过期，仅供参考。额度、模型、价格一律以站内实际为准。
 >
-> 收录 `36` 个站，其中 `18` 个确认支持每日签到。数据更新：`2026-10-18`。
+> 收录 `37` 个站，其中 `18` 个确认支持每日签到。数据更新：`2026-10-18`。
 
 ## 📖 怎么用
 
@@ -144,7 +146,7 @@ Claude Code / Codex CLI 之类的工具，把 `ANTHROPIC_BASE_URL` 或 `OPENAI_B
 - **XingYa** — 每日签到可用
 
 
-### ➖ 未开签到（10 个）
+### ➖ 未开签到（11 个）
 
 - **UnoRouter** — 聚合中转（非 NewAPI），OpenAI 兼容；模型 230+，官方标 99 个免费档（含 claude-opus-5 / claude-sonnet-5:free 等）；注册需邮箱验证码，支持 GitHub / Discord / Google 登录；无签到；Base URL https://unorouter.com/v1
 - **CheapRouter** — 自研面板（非 NewAPI），Claude Code / Codex 一键接入；OpenAI / Anthropic 兼容，直连 Claude / GPT / Grok 与国产模型；有推荐邀请，无签到
@@ -155,6 +157,7 @@ Claude Code / Codex CLI 之类的工具，把 `ANTHROPIC_BASE_URL` 或 `OPENAI_B
 - **LiangJie** — 未开签到
 - **BoluoAPI** — 未开签到，但免费额度给得足
 - **NikoAPI** — 未开签到
+- **RelayCore** — Sub2API 架构（非 NewAPI），无每日签到；PriceAI 榜 2026-11-22 快照综合第 2，近 7 日可用率 99.4%；GPT 系 0.05x 起、Claude 系 0.06x 起，个人实测 Claude 主力分组缓存命中约 80-90%；充值 ¥1=1 额度，余额可按规则退款
 - **AAA API** — 未开签到
 
 

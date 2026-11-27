@@ -28,6 +28,7 @@ monkeyapi.apimonkey.online	https://monkeyapi.apimonkey.online/sign-up?aff=hMiP
 nikoapi.xyz	https://nikoapi.xyz/sign-up?aff=2EvG
 open.selart.cc	https://open.selart.cc/sign-up?aff=0bnk
 qingjiu.nemodesk.top	https://qingjiu.nemodesk.top/register?aff=3vh4
+relaycore.cn	https://relaycore.cn/register?aff=YJ6EYCK6XFWF
 shufulei.net	https://shufulei.net/register?aff=8vzQ
 tokenmetro.com	https://tokenmetro.com/sign-up?aff=C2Pp
 wqdsjhaoai.site	https://wqdsjhaoai.site/sign-up?aff=eNr2
